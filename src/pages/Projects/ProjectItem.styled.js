@@ -15,8 +15,8 @@ export const Cube = styled.div`
   position: relative;
   transform-style: preserve-3d;
   transform: rotateX(35deg) rotateY(45deg);
-  width: 320px;
-  height: 340px;
+  width: 400px;
+  height: 440px;
   display: flex;
   align-items: flex-end;
   flex-shrink: 0;
@@ -37,8 +37,8 @@ export const Cube = styled.div`
 
 export const Face = styled.div`
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 260px;
+  height: 260px;
   transform-style: preserve-3d;
   overflow: hidden;
   border-radius: 0.5rem;

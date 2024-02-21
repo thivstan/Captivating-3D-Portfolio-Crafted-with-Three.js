@@ -6,77 +6,39 @@ import getv from "../assets/images/get-v.jpg";
 
 export const projects = [
   {
-    title: "Get Vulnerable",
-    image: getv,
-    link: "https://get-vulnerable.teshank.dev",
+    title: "Watch Party – Virtual Party Host Web App",
+    // image: getv,
+    link: "https://github.com/thivistan/Colosseum--WatchParty-webapp-",
     description:
-      "Game which encourages the players to open up by asking questions",
+      " Collaborative video platform for synchronized viewing, supporting multiple content sources and customizable rooms with integrated chat features.",
   },
   {
-    title: "Semicolon",
-    image: semicolon,
-    link: "https://github.com/teshank2137/semicolon.md",
+    title: "E-Commerce Plus: Ruby on Rails API for Full-Stack Development",
+    // image: semicolon,
+    link: "https://github.com/thivistan/E-CommercePlus",
     description:
-      "Mental health support by predicting and offering activities for mood upliftment.",
+      "E-CommercePlus: A Ruby on Rails API facilitating seamless full-stack e-commerce development with authentication, authorization, CRUD operations, and security features.",
   },
   {
-    title: "Send form to me",
-    image: sendfrom,
-    link: "https://sendformto.me",
+    title: "Voice Assistant--Sara",
+    // image: sendfrom,
+    link: "https://github.com/thivistan/OpenAI-Voice-Assistant---Sara",
     description:
-      "Backend-as-a-service for creating forms with unique URLs and email notifications.",
+      "Enhanced voice AI accuracy with OpenAI's GPT models, achieving 90% success in understanding and responding to user commands.",
   },
   {
-    title: "Fan Merch",
-    image:
-      "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/fanmerch.png",
-    github: "https://github.com/teshank2137/fanMerch",
-    link: "https://fan-merch.vercel.app/",
+    title: "Convolutional Neural Network Classifier for Image Recognition",
+    // image: sendfrom,
+    link: "https://github.com/thivistan/Image-Classification-using-CNN",
     description:
-      "A conceptual website for social media influence's to sell their merch.",
+      "Implemented a CNN in Python with TensorFlow to classify dog and cat images, achieving 97.56% validation accuracy on a Kaggle dataset.",
   },
   {
-    title: "Find Techie",
+    title: "Deep Face Recognition with Keras and TensorFlow",
+    // image: sendfrom,
+    link: "https://github.com/thivistan/DeepFaceRecognition-using-Keras",
     description:
-      "A Twitter bot that scans Twitter for job/intern posting and retweets top tweets daily.",
-    image:
-      "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/Techie.png",
-    link: "https://twitter.com/FindTechie",
+      "Developed a facial recognition solution using Keras and TensorFlow, harnessing CNNs and the VGG-Face model for precise face detection and authentication.",
   },
-  {
-    title: "React Infinite scroll",
-    description: "Infinite scrolling using custom hook and ObservableAPI",
-    image: scroll,
-    link: "https://react-infinite-scroll-nu.vercel.app/",
-    github: "https://github.com/teshank2137/react-infinite-scroll",
-  },
-  {
-    title: "Smart Attendance App",
-    description:
-      "A mobile app in which the user can track and mark attendance using face verification.",
-    image:
-      "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/smartattendance.png",
-    github: "https://github.com/teshank2137/smartAtendence",
-  },
-  {
-    title: "Stock Market Prediction API",
-    description:
-      "An API Which predicts the next day's closing price of a stock.",
-    image: stonks,
-    github: "https://github.com/teshank2137/stockprediction",
-  },
-  {
-    title: "Algorithm Visualizer",
-    description: "Web App to visualize the searching and sorting algorithms",
-    image:
-      "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/sort.JPG",
-    link: "https://teshank2137.github.io/#/",
-  },
-  {
-    title: "Portfolio v1",
-    description: "Built using ReactJS, ThreeJS, CSS3 and lots of ❤️ love.",
-    image:
-      "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/port.JPG",
-    link: "https://www.v1.teshank.dev/",
-  },
+  
 ];

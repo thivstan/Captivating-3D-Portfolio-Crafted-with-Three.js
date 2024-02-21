@@ -54,7 +54,7 @@ export const StyledExperienceItem = styled.div`
       }
       img {
         width: 100%;
-        object-fit: cover;
+        object-fit: fill;
       }
     }
 
@@ -72,7 +72,8 @@ export const StyledExperienceItem = styled.div`
   }
 
   &.active {
-    width: 600px;
+    width: 900px;
+    height: 500px;
     .date {
       display: block;
     }

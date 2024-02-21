@@ -48,8 +48,11 @@ export const Name = styled.h1`
   background: white;
   background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, #ddd 100%);
   line-height: 1;
+  display: inline; /* Change to inline */
+  white-space: nowrap; /* Add this line */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
   @media screen and (max-width: 1204px) {
     font-size: ${typeScale.display};
   }
@@ -64,7 +67,7 @@ const textRotate1 = keyframes`
 0%{
   transform: translate3d(0, 0%, 0) rotateX(0deg)
 }
-40%{
+20%{
   transform: translate3d(0, 0%, 0) rotateX(0deg)
 }
 60%{
@@ -89,6 +92,20 @@ const textRotate2 = keyframes`
   transform: translate3d(0, 0%, 0) rotateX(0deg);
 }
 `;
+// const textRotate3 = keyframes`
+//   0% {
+//     transform: translate3d(0, 300%, 0) rotateX(-270deg);
+//   }
+//   10% {
+//     transform: translate3d(0, 300%, 0) rotateX(-270deg);
+//   }
+//   40% {
+//     transform: translate3d(0, 0%, 0) rotateX(0deg);
+//   }
+//   100% {
+//     transform: translate3d(0, 0%, 0) rotateX(0deg);
+//   }
+// `;
 
 export const Position = styled(PageHeaderStyled)`
   background: unset;
@@ -120,7 +137,9 @@ export const Position = styled(PageHeaderStyled)`
         transform: translate3d(0, 100%, 0) rotateX(-90deg);
         animation: ${textRotate2} 2.4s infinite alternate;
       }
-    }
+
+  }
+
   }
   @media screen and (max-width: 1204px) {
     font-size: ${typeScale.title};
