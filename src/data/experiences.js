@@ -11,7 +11,7 @@ export const experiences = [
     joined: "Aug'23",
     end: "Jan 2023",
     title: "Software Developer",
-    bio:"In my role as a Software Developer from Sep 2023 to Dec 2023,  proficient in Angular, TypeScript, and HTML/CSS. Led teams to improve UI responsiveness by 70% and drive a 25% increase in user satisfaction through feature development. Implemented advanced rendering techniques, reducing rendering time by 40% and improving project delivery speed by 25%. Automated 60% of infrastructure tasks, boosting code quality by 45%. Spearheaded GraphQL adoption, resulting in a 30% API efficiency surge. Conducted bi-weekly code reviews, achieving 95% code coverage and reducing critical issues by 30%. Passionate about delivering innovative solutions that optimize performance and elevate user experience.",
+    bio:"In my role as a Software Developer Engineer from Sep 2023 to Dec 2023,  proficient in Angular, TypeScript, and HTML/CSS. Led teams to improve UI responsiveness by 70% and drive a 25% increase in user satisfaction through feature development. Implemented advanced rendering techniques, reducing rendering time by 40% and improving project delivery speed by 25%. Automated 60% of infrastructure tasks, boosting code quality by 45%. Spearheaded GraphQL adoption, resulting in a 30% API efficiency surge. Conducted bi-weekly code reviews, achieving 95% code coverage and reducing critical issues by 30%. Passionate about delivering innovative solutions that optimize performance and elevate user experience.",
     color: blue,
   },
   {
